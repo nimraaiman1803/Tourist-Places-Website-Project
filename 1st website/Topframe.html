@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  size: 100px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+</head>
+<body style= "background-image :url('image_0.jpg')";>
+<div class="row">
+  <div class="column">
+    <marquee behavior = "flip" scrollamount = "5" direction = "up">
+    <img src="image_1.jpg" alt="Telangana" style="width:100%"></marquee>
+  </div>
+  <div class="column">
+    <marquee behavior = "flip" scrollamount = "5" direction = "down">
+    <img src="image_6.jpg" alt="Telangana" style="width:100%" ></marquee>
+  </div>
+  <div class="column">
+    <img src="image_4.jpg" alt="Telangana" style="width:100%;height = 800%"/>
+    <div class="centered" ><h1><marquee behavior = "scroll" scrollamount = "7" direction = "right"> <b><i>TELANGANA TOURISM</i></b></marquee></h1></div>
+  </div>
+  <div class="column">
+    <marquee behavior = "flip" scrollamount = "5" direction = "up">
+    <img src="image_5.jpg" alt="Telangana" style="width:100%" ></marquee>
+  </div>
+  <div class="column">
+    <marquee behavior = "flip" scrollamount = "5" direction = "down">
+    <img src="image_3.jpg" alt="Telangana" style="width:100%" ></marquee>
+  </div>
+</div>
+
+</body>
+</html>

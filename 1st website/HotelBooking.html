@@ -1,0 +1,74 @@
+<html>
+<head>
+    <style>
+		.btn{
+			background-color:rgb(211, 63, 63);
+			display:inline-block;
+			padding-left: 16px;
+			padding-right: 16px;
+			font-size:20px;
+			cursor:pointer;
+			text-align: center;
+			text-decoration: none;
+			outline:invert;
+			color:#fff;
+			
+			border:none;
+			border-radius: 15px;
+			box-shadow: 1px 4px #999;
+		}
+		.btn:hover{
+			background-color:rgb(163, 255, 127);
+		}
+		</style>
+</head>
+<body style= "background-image :url('image_24.jpg')">
+    <form action = "submit_1.html" method = "post">
+	<h2 align = "center" style = "color : brown">Complete This Section If You Need A Hotel/Resort </h2>
+    <b><i>Name : <input type = "text" name = "name"><br><br>
+    <b><i>Address : <input type = "text" name = "name"><br><br>
+    <b><i>Country : <input type = "text" name = "name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b><i>State : <input type = "text" name = "name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b><i>City : <input type = "text" name = "name"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+    <b><i>Phone no. : <input type = "tel" name = "telephone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b><i>Email Address: <input type = "text" name = "mail"><br><br>
+
+    <b> Enter hotel Name:</b><input type = "text" name = "Hotelname"><br><br>
+    <b><i>Resort Type :</i></b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "All-Inclusive"> <b>All-Inclusive</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Standard Hotel"> <b>Standard Hotel</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Resort"> <b>Resort</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Bed & Breakfast"> <b>Bed & Breakfast </b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Condo"><b> Condo </b><br><br>
+    <b><i>Preferred Room : </i></b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Ocean View"> <b> Ocean View</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Balcony"> <b>Balcony</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Beach Front"> <b>Beach Front</b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Swim up"> <b> Swim Up </b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "Standard"><b> Standard </b><br><br>
+    <b><i>Preferred Bedding : </i></b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "King Size"> <b> King Size </b><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "checkbox" name = "2 Beds"> <b>2 Beds</b><br>
+	<br>
+    <label for="day">Check-in Date :</label>
+    <input type="date" id="day" name="day">&nbsp;&nbsp;&nbsp;
+    <label for="day">Check-out Date :</label>
+    <input type="date" id="day" name="day">&nbsp;&nbsp;&nbsp;
+    <label for="appt">Check-in time:</label>
+    <input type="time" id="appt" name="appt">&nbsp;&nbsp;&nbsp;
+    <label for="appt">Check-out time:</label>
+    <input type="time" id="appt" name="appt">
+    <br><br>
+    <b><i> Adults : </i></b>
+    <label for="quantity">Quantity (between 1 and 15):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="15">
+    &nbsp;&nbsp;&nbsp;
+    <b><i> Children : </i></b> 
+    <label for="quantity">Quantity (between 1 and 10):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="10"><br><br>
+
+	<a href = "submit2.html"><b><button class = "btn">Register</button></b></a>
+
+    </form>
+</body>
+</html>
